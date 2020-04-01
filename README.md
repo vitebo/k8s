@@ -17,8 +17,9 @@ alias k8s='docker run \
 
 bash displays its current context in the `PS1` variable
 
+
 ## Alias
-### `kexec`
+### kexec
 use `kexec` to run a command on your pod.
 
 #### Example:
@@ -26,7 +27,7 @@ use `kexec` to run a command on your pod.
 $ kexec name_of_your_pod bash
 ```
 
-### `klogs`
+### klogs
 use `klogs` to view your pod logs.
 
 #### Example:
